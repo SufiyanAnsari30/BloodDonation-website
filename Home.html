@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner img {
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-bottom: 1%;
+            padding-top: 1%;
+        }
+  </style>
+</head>
+<body>
+<?php require "BloodDonation.html"?>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="C:\Users\jadha\Desktop\MINI PROJECT\carousel-images\1.jpg" alt="blood-liquid-gold" class="img-thumbnail">
+                <div class="carousel-caption">
+                    <h3 style="color: #FF0000; font-weight: bold; font-size: x-large;">It's not just blood,</h3>
+                    <p style="color: #000000; font-size: medium">it's liquid life.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\jadha\Desktop\MINI PROJECT\carousel-images\2.jpg" alt="world-blood-donor-day" class="img-thumbnail">
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\jadha\Desktop\MINI PROJECT\carousel-images\3.jpg" alt="donate-blood" class="img-thumbnail">
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\jadha\Desktop\MINI PROJECT\carousel-images\4.jpg" alt="what-to-eat-before-donating" class="img-thumbnail">
+                <div class="carousel-caption">
+                    <h3>Be a healthy donor</h3>
+                    <p>What to eat before donating</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\jadha\Desktop\MINI PROJECT\carousel-images\5.jpg" alt="take-a-quiz" class="img-thumbnail">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+</body>
+</html>
